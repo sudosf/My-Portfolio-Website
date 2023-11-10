@@ -4,5 +4,5 @@
 
 @font-face {
     font-family: "burtons";
-    src: url('../public/Burtons.otf');
+    src: url('./assets/Burtons.otf');
 }

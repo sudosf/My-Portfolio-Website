@@ -5,10 +5,10 @@ import {
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import portfolio from "../public/portfolio_2.png";
-import code from "../public/code.png";
-import design from "../public/design.png";
-import consulting from "../public/consulting.png";
+import portfolio from "./assets/portfolio.png";
+import code from "./assets/code.png";
+import design from "./assets/design.png";
+import consulting from "./assets/consulting.png";
 
 const App: React.FC = () => {
     const [darkMode, setDarkMode] = useState<boolean>(true);
