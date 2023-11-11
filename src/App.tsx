@@ -18,12 +18,11 @@ const App: React.FC = () => {
 
     return (
         <>
-                <Header />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                </Routes>
-
             <Header />
+            <Routes>
+                <Route path="/Home" element={<Home />} />
+            </Routes>
+
             {/* <div className={darkMode ? "dark" : ""}>
                 <main className="bg-slate-50 dark:bg-gray-900 px-10  md:px-20 lg:px-40">
                     <section className="min-h-screen">
