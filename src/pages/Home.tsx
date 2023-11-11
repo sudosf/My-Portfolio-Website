@@ -2,8 +2,8 @@ import {
     AiFillTwitterCircle,
     AiFillLinkedin,
     AiFillYoutube,
-} from "react-icons/ai"
-import portfolio from "../assets/portfolio.png"
+} from "react-icons/ai";
+import portfolio from "../assets/portfolio.png";
 import code from "../assets/code.png";
 import design from "../assets/design.png";
 import consulting from "../assets/consulting.png";
@@ -14,14 +14,14 @@ interface Props {
     setDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const Home: React.FC<Props> = ({darkMode, setDarkMode}: Props) => {
+const Home: React.FC<Props> = ({ darkMode, setDarkMode }: Props) => {
     return (
         <>
             <div className={darkMode ? "dark" : ""}>
-                <main className="bg-slate-50 dark:bg-gray-900 px-10 md:px-20 lg:px-40">
+                <main className="bg-slate-50 dark:bg-gray-900 ">
                     <section className="min-h-screen">
                         
-            <Header darkMode={darkMode} setDarkMode={setDarkMode} />
+                        <Header darkMode={darkMode} setDarkMode={setDarkMode} />
 
                         <div className="text-center p-">
                             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
@@ -134,7 +134,7 @@ const Home: React.FC<Props> = ({darkMode, setDarkMode}: Props) => {
                         </div>
                     </section>
                 </main>
-            </div> 
+            </div>
         </>
     );
 };

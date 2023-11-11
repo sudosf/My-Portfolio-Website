@@ -9,7 +9,7 @@ const App: React.FC = () => {
     return (
         <>
             <Routes>
-                <Route path="/Home" element={<Home darkMode={darkMode} />} />
+                <Route path="/Home" element={<Home darkMode={darkMode} setDarkMode={setDarkMode} />} />
             </Routes>
         </>
     );
