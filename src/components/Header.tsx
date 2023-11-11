@@ -7,8 +7,8 @@ interface Props {
 
 const Header: React.FC<Props> = ({ darkMode, setDarkMode }: Props) => {
     return (
-        <nav className="px-10 pt-7 pb-3 mb-12 flex justify-between dark:text-white dark:bg-gray-950 md:px-20 lg:px-40">
-            <h1 className="font-burtons text-xl">Siya Nkuna (sudosf) </h1>
+        <nav className="sticky top-0 z-50 px-10 pt-7 pb-3 mb-12 flex justify-between bg-slate-200 shadow dark:text-white dark:bg-gray-950 md:px-40 lg:px-80">
+            <h1 className="font-burtons text-xl"> Developedby Siya </h1>
             <ul className="flex items-center">
                 <li>
                     <BsFillMoonStarsFill
